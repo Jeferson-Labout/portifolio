@@ -27,11 +27,12 @@ a {
 .menu a, h5 {
   /* font-family: 'Barlow Condensed', sans-serif; */
   color: #070707;
-
-  font-family: 'Hurricane', cursive;
+  font-family: 'Lobster', cursive;
   font-weight: 400;
 }
-
+ .menu img{
+   width: 40%;
+ }
 a {
   text-decoration: none;
 }
@@ -96,6 +97,24 @@ a {
 
 #contact ul li a {
   color: #f5f7f7;
+}
+.row{
+  
+  width: calc(100% / 3);
+  height: 100px;
+  display: inline-block;
+  font-size: 20px;
+
+}
+.row img{
+  margin-right: 2%;
+  width: 7%;
+  margin-top: 0%;
+
+}
+.row h6{
+ margin-top: 0%;
+ display: flex;
 }
 
 h1 {
